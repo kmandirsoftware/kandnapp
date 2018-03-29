@@ -1,4 +1,5 @@
-var base = 'http://localhost:5000/';
+//var base = 'http://localhost:5000/';
+var base = 'https://keithandnikki.herokuapp.com/';
 var registerservice = base + 'register';
 
 $(document).ready(function(){
