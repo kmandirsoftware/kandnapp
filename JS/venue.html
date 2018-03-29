@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Denver Venue</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="ratchet.css" rel="stylesheet">
+
+    <!-- Optionally, include either the iOS or Android theme -->
+    <link href="ratchet-theme-ios.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+      <a class="icon icon-left-nav pull-left" href="/" data-transition="slide-out"></a>
+      <h1 class="title">Denver Venue</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+        <div class="card">
+        <ul class="table-view">
+          <li class="table-view-cell">
+            JW Marriott Denver Cherry Creek
+            <p>150 Clayton Lane, Denver, Colorado, 80206</p>
+          </li>
+          <li class="table-view-cell">
+            Open location in Google Maps
+            <a href="comgooglemaps://?q=JW+Marriott+Denver+Cherry+Creek?center=39.719065,-105.025741">
+               <button>Click me</button>
+            </a>
+          </li>
+          </ul>
+        </div>
+    </div>
+
+  </body>
+</html>

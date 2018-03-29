@@ -1,0 +1,12 @@
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  background-image: url("wed2.jpg");
+  background-position: center top;
+  z-index: 1
+}
